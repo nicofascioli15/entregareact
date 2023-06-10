@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #5d5d5d;
+}
+
+div a{
+    text-decoration: none;
+}
+
+nav h1 {
+    font-size: 65px;
+    color: #ffffff;
+    font-family: 'Itim', cursive;
+
+}
+
+ul li a{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.682);
+    padding: .9rem;
+    border-radius: .9rem;
+    font-size: 14px;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: rgb(235, 255, 50);
+    color: black;
+}
+
+
+li{
+    list-style: none;
+}
+
+span {
+    color: white;
+}
+
+.cartShop {
+    color: rgb(235, 255, 50);
+}
+
+
+div h3 {
+    text-align: center;
+    padding: 3rem;
+}
