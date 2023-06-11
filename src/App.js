@@ -11,7 +11,7 @@ const App = () => {
         </header>
 
         <main>
-        <ItemListContainer greeting={'Bienvenidos y buenas olas!'}/>
+        <ItemListContainer greeting='Bienvenidos y buenas olas!'/>
         </main>        
     </div>   
        
