@@ -8,10 +8,10 @@ return(
     <div>
     <h3>Productos</h3>
 
-    <section className="container listaProductos">
+    <section className="container listaProductos column">
         {productos.map((producto)=>{
             return(
-            <article className="card column is-2 columns is-gapless" key={producto.id}>
+            <article className="card columns is-8" key={producto.id}>
                 <h5>{producto.title}</h5>
                 <div className="card-image">
                 <figure className="image is-4by3">
