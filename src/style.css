@@ -56,8 +56,8 @@ div h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   gap: 2rem;
-
+    align-items: center;
+    gap: 2rem;
 }
 
 .titleProducto {
