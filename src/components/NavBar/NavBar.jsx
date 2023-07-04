@@ -1,8 +1,12 @@
 import CartWidget from "./CartWidget";
+import { Link } from "react-router-dom";
 
 
 
 const Navbar = () => {
+
+    
+
     return (
         <nav className="d-flex align-items-center justify-content-around">
             <h1>LAISLA</h1>
@@ -10,23 +14,30 @@ const Navbar = () => {
 
             <ul className="d-flex gap-5">
                 <li>
-                    <a href="">Inicio</a>
+                    <Link to="/">Inicio</Link>
                 </li>
                 <li>
-                    <a href="">Quienes somos</a>
+                    <Link to="/productos">Productos</Link>
                 </li>
                 <li>
-                    <a href="">Productos</a>
+                <Link to="/quienesSomos">Quienes Somos</Link>
                 </li>
                 <li>
-                    <a href="">Contacto</a>
+                <Link to="/contacto">Contacto</Link>
                 </li>
+                
+
+
             </ul>
 
         
         </div>    
 
+        <Link to="/carrito">
+        
         <CartWidget/>
+        
+        </Link> 
 
        </nav>
 

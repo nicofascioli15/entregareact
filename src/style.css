@@ -51,3 +51,28 @@ div h3 {
     text-align: center;
     padding: 3rem;
 }
+
+.listaProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   gap: 2rem;
+
+}
+
+.titleProducto {
+    padding-bottom: 20px;
+}
+
+.productDetail {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.countProducto {
+    display: flex;
+    gap: 1rem;
+}
